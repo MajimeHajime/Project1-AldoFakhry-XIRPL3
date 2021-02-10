@@ -18,14 +18,14 @@ public class Menu {
     // Get-Set methods
     public String getNamaMenu(){
 
-        return;
+        return "";
     }
     public double getHarga(){
 
-        return;
+        return Double.parseDouble(null);
     }
     public String getKategori(){
 
-        return;
+        return "";
     }
 }

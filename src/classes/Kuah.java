@@ -1,5 +1,5 @@
 package classes;
 
 public class Kuah {
-    public Kuah(String nama);
+    public Kuah(String nama){}
 }
