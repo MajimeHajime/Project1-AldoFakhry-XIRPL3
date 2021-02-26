@@ -8,8 +8,8 @@ public class Menu {
     public void setNamaMenu(String nama_menu){
         this.namaMenu = nama_menu;
     }
-    public void setHarga(){
-        this.harga = harga;
+    public void setHarga(double harga_lol){
+        this.harga = harga_lol;
     }
     public void setKategori(String kategorikal){
         this.kategori = kategorikal;
