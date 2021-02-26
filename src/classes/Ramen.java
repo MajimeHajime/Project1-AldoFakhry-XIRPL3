@@ -1,7 +1,9 @@
 package classes;
 
-public class Ramen {
-    public Ramen(String nama, double harga){
-
+public class Ramen extends Menu {
+    public Ramen(String nama_ramen, double harga){
+        setNamaMenu(nama_ramen);
+        setHarga(harga);
+        setKategori("Ramen");
     }
 }

@@ -1,7 +1,9 @@
 package classes;
 
-public class Toping {
-    public Toping(String nama, double harga){
-
+public class Toping extends Menu {
+    public Toping(String nama_toping, double harga){
+        setNamaMenu(nama_toping);
+        setHarga(harga);
+        setKategori("Toping");
     }
 }
