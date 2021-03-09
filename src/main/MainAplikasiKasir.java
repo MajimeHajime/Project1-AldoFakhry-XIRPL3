@@ -7,6 +7,10 @@ import java.util.Scanner;
 
 public class MainAplikasiKasir {
     public DaftarMenu daftarMenu;
+
+    public static double PAJAK_PPN = 0.10;
+    public static double BIAYA_SERVICE = 0.5;
+
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
