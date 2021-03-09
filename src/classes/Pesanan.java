@@ -6,6 +6,8 @@ public class Pesanan {
     private String keterangan;
 
     public Pesanan(Menu menu, int jumlah){}
-    public void setKeterangan(){}
+    public void setKeterangan(String attrib){
+        this.keterangan = attrib;
+    }
     public String getKeterangan(){return "";}
 }
